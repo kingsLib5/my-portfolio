@@ -1,24 +1,29 @@
 import React, { useState } from 'react';
 
+// Importing the images
+import project1Image from '../assets/project1.jpg';
+import project2Image from '../assets/project2.jpg';
+import project3Image from '../assets/project3.jpg';
+
 const projectsData = [
   {
     title: 'E-Commerce Website',
     description: 'A full-stack e-commerce platform built with React, Node.js, and MongoDB.',
-    image: 'src/assets/project1.jpg',
+    image: project1Image, // Using imported image
     liveDemo: '#',
     codeLink: '#',
   },
   {
     title: 'Portfolio Website',
     description: 'A personal portfolio to showcase my work, built with React and Tailwind CSS.',
-    image: 'src/assets/project3.jpg',
+    image: project2Image, // Using imported image
     liveDemo: '#',
     codeLink: '#',
   },
   {
     title: 'Weather App',
     description: 'A weather forecasting app using the OpenWeather API, built with React and Tailwind CSS.',
-    image: 'src/assets/project3.jpg',
+    image: project3Image, // Using imported image
     liveDemo: '#',
     codeLink: 'https://github.com/kingsLib5/weatherForecast',
   },
