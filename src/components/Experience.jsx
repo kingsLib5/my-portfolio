@@ -11,7 +11,7 @@ const experiencesData = [
   {
     company: 'NathConcept',
     role: 'Frontend Developer',
-    duration: 'Sep 2022 - Jun 2024',
+    duration: 'Sep 2022 - persent',
     description: 'Worked on designing and developing highly interactive and responsive front-end applications.',
     icon: '🎨',
   },

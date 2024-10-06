@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 // Importing the images
 import project1Image from '../assets/project1.jpg';
-import project2Image from '../assets/project2.jpg';
-import project3Image from '../assets/project3.jpg';
+import project2Image from '../assets/project3.jpg';
+import project3Image from '../assets/project2.jpg';
 
 const projectsData = [
   {
