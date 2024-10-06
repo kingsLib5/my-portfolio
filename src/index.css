@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@keyframes letterReveal {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-letterReveal {
+    animation: letterReveal 0.5s ease-out forwards;
+    display: inline-block;
+    opacity: 0; /* Initially invisible until the animation starts */
+  }
+  
+  
