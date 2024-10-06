@@ -1,13 +1,13 @@
 import React from 'react';
 import heroImage from '../assets/person2.jpg'; // Fallback image
-import heroVideo from '../assets/welcome3.mp4'; // Video for the background
+import heroVideo from '../assets/welcome2.mp4'; // Video for the background
 import profilePic from '../assets/person2.jpg'; // Your profile picture
 
 const Hero = () => {
   const name = "David Igboanusi".split(""); // Split name into individual characters
 
   return (
-    <section id="home" className="relative h-screen w-full flex flex-col items-center justify-center text-blue-500 bg-cover bg-center" style={{ backgroundImage: `url(${heroImage})` }}>
+    <section id="home" className="relative h-screen w-full flex flex-col items-center justify-center text-white bg-cover bg-center" style={{ backgroundImage: `url(${heroImage})` }}>
       
       {/* Lazy Load Video */}
       <video
