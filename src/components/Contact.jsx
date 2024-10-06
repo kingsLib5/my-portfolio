@@ -109,6 +109,8 @@ const Contact = () => {
           <div className="text-center mb-12">
             <h3 className="text-2xl font-bold text-green-500">Thank you for reaching out!</h3>
             <p className="mt-4">I will get back to you as soon as possible.</p>
+            <p className="mt-4">You also reach out to me on my Social Media handles.</p>
+
           </div>
         )}
 

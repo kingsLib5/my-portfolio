@@ -7,8 +7,11 @@ const Hero = () => {
   const name = "David Igboanusi".split(""); // Split name into individual characters
 
   return (
-    <section id="home" className="relative h-screen w-full flex flex-col items-center justify-center text-white bg-cover bg-center" style={{ backgroundImage: `url(${heroImage})` }}>
-      
+    <section
+      id="home"
+      className="relative h-screen w-full flex flex-col items-center justify-center text-white bg-cover bg-center"
+      style={{ backgroundImage: `url(${heroImage})` }}
+    >
       {/* Lazy Load Video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
@@ -24,17 +27,16 @@ const Hero = () => {
       </video>
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center text-center space-y-8">
-        
+      <div className="relative z-10 flex flex-col items-center text-center space-y-8 p-4">
         {/* Profile Picture */}
         <img
           src={profilePic}
           alt="David Kings Igboanusi"
-          className="w-40 h-40 rounded-full object-cover border-4 border-white shadow-lg mb-6"
+          className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-white shadow-lg mb-6"
         />
 
         {/* Name with Letter-by-Letter Animation */}
-        <h1 className="text-6xl md:text-8xl font-bold tracking-wide">
+        <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold tracking-wide">
           {name.map((letter, index) => (
             <span
               key={index}
@@ -45,12 +47,12 @@ const Hero = () => {
             </span>
           ))}
         </h1>
-        <h2 className="text-2xl md:text-4xl font-light animate-fadeIn delay-200">
+        <h2 className="text-xl sm:text-2xl md:text-4xl font-light animate-fadeIn delay-200">
           Full Stack Developer
         </h2>
 
         {/* Call-to-Action Buttons */}
-        <div className="flex space-x-4">
+        <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
           <a
             href="#projects"
             className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-full transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
