@@ -48,7 +48,7 @@ const Hero = () => {
           ))}
         </h1>
         <h2 className="text-xl sm:text-2xl md:text-4xl font-light animate-fadeIn delay-200">
-          Full Stack Developer
+          MERN Stack Developer
         </h2>
 
         {/* Call-to-Action Buttons */}

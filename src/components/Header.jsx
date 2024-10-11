@@ -86,7 +86,7 @@ const Header = () => {
             duration={500}
             className="text-white hover:text-blue-300 cursor-pointer transition-colors duration-200"
           >
-            Contact
+            Get in touch
           </Link>
         </nav>
 
@@ -150,7 +150,7 @@ const Header = () => {
             onClick={() => setIsOpen(false)}
             className="text-white hover:text-blue-300 cursor-pointer transition-colors duration-200"
           >
-            Contact
+            Get in touch
           </Link>
         </nav>
       </div>
