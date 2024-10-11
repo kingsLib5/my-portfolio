@@ -1,6 +1,6 @@
 import React from 'react';
 import heroImage from '../assets/person2.jpg'; // Fallback image
-import heroVideo from '../assets/welcome2.mp4'; // Video for the background
+import heroVideo from '../assets/codes.mp4'; // Video for the background
 import profilePic from '../assets/person2.jpg'; // Your profile picture
 
 const Hero = () => {

@@ -8,7 +8,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gray-800 py-5 text-white">
+    <footer className="bg-[black] py-5 text-white">
       <div className="container mx-auto px-4 text-center">
         {/* Social Media Icons */}
         <div className="flex justify-center space-x-6 mb-8">

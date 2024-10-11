@@ -38,7 +38,7 @@ const Header = () => {
   }, [isOpen]);
 
   return (
-    <header className={`fixed w-full top-0 z-20 transition-all duration-300 ease-in-out ${isScrolled ? 'bg-blue-600 py-2 shadow-lg' : 'bg-transparent py-4'}`}>
+    <header className={`fixed w-full top-0 z-20 transition-all duration-300 ease-in-out ${isScrolled ? 'bg-[#4d4d5e9a] py-2 shadow-lg' : 'bg-transparent py-4'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
         {/* Logo */}
         <div className="text-3xl font-bold text-white">
@@ -113,7 +113,7 @@ const Header = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`mobile-menu fixed top-0 right-0 w-3/4 h-full bg-blue-600 text-white z-20 transform transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}
+        className={`mobile-menu fixed top-0 right-0 w-3/4 h-full bg-[#4d4d5e9a] text-white z-20 transform transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}
       >
         <nav className="flex flex-col space-y-4 p-8">
           <Link

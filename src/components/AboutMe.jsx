@@ -15,7 +15,7 @@ const AboutMe = () => {
               className="w-full h-full object-cover rounded-full shadow-lg transition-transform duration-300 ease-in-out transform group-hover:scale-105"
             />
             {/* Overlay content to be shown on hover */}
-            <div className="absolute top-0 left-0 w-full h-full bg-blue-600 bg-opacity-75 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
+            <div className="absolute top-0 left-0 w-full h-full bg-[#4d4d5e9a] bg-opacity-75 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
               <h3 className="text-2xl font-bold">Fun Fact!</h3>
               <p className="text-center">I love coding and gaming.</p>
             </div>

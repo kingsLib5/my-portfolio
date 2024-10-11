@@ -67,7 +67,7 @@ const Skills = () => {
             <button
               key={category}
               onClick={() => setSelectedCategory(category)}
-              className={`py-2 px-4 rounded-full transition-all duration-300 ${selectedCategory === category ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
+              className={`py-2 px-4 rounded-full transition-all duration-300 ${selectedCategory === category ? 'bg-[#4d4d5e9a] text-white' : 'bg-gray-200'}`}
             >
               {category.charAt(0).toUpperCase() + category.slice(1)}
             </button>
@@ -80,7 +80,7 @@ const Skills = () => {
             <div
               key={index}
               ref={(el) => (progressBarRefs.current[index] = el)}
-              className="relative bg-gray-100 p-6 rounded-lg shadow-lg transition-all duration-300 hover:bg-blue-500 hover:text-white"
+              className="relative bg-gray-100 p-6 rounded-lg shadow-lg transition-all duration-300 hover:bg-[#4d4d5e9a] hover:text-white"
             >
               <h3 className="text-lg font-bold mb-4">{skill.name}</h3>
               
