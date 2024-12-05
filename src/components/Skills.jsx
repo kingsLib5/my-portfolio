@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from 'react';
 const skillsData = {
   frontend: [
     { name: 'React.js', level: '90%' },
-    { name: 'HTML5', level: '95%' },
+    { name: 'Python', level: '80%' },
     { name: 'CSS3', level: '90%' },
     { name: 'JavaScript', level: '85%' },
     { name: 'Tailwind Css', level: '80%' },
@@ -14,7 +14,7 @@ const skillsData = {
     { name: 'Express.js', level: '80%' },
     { name: 'MongoDB', level: '75%' },
     { name: 'SQL', level: '70%' },
-    { name: 'MicroSoft SQL Server', level: '80%' }
+    { name: 'Django', level: '80%' }
   ],
   tools: [
     { name: 'Git', level: '90%' },
