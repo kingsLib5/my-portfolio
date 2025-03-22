@@ -11,14 +11,14 @@ const experiencesData = [
   {
     company: 'NathConcept',
     role: 'Frontend Developer',
-    duration: 'Sep 2022 - persent',
+    duration: ' Sep 2022 - Feb 2025',
     description: 'Worked on designing and developing highly interactive and responsive front-end applications.',
     icon: '🎨',
   },
   {
     company: 'LUMVA',
     role: 'Backend Developer',
-    duration: 'Jul - present',
+    duration: 'Jul 2024 - Dec 2024 ',
     description: 'Built RESTful APIs using Node.js and Express, and managed cloud databases with AWS and MongoDB.',
     icon: '🔧',
   },

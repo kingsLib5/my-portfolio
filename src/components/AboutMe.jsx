@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePic from '../assets/person2.jpg'; // Your profile picture
+import profilePic from '../assets/hero.jpeg'; // 
 
 const AboutMe = () => {
   return (
@@ -31,7 +31,7 @@ const AboutMe = () => {
           <p className="text-lg">
             When I'm not coding, you'll find me exploring new tech trends, playing video games, or diving into an exciting book.
           </p>
-          {/* Add more sections about skills, experiences, or journey */}
+        
         </div>
       </div>
     </section>
